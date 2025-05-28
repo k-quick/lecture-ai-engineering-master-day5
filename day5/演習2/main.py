@@ -15,7 +15,7 @@ class DataLoader:
     """データロードを行うクラス"""
 
     @staticmethod
-    def load_titanic_data(path="day5\演習2\data\Titanic.csv"):
+    def load_titanic_data(path="data\Titanic.csv"):
         """Titanicデータセットを読み込む"""
         if path:
             return pd.read_csv(path)
